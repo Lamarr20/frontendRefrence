@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Some Form</h1>
+    <form action="Tacos">
+      <p>
+        <label for="username">Enter a username</label>
+        <input type="text" placeholder="blah" id="username" name="username" />
+      </p>
+      <p>
+        <label for="password"></label>
+        <input type="password" id="password" password />
+      </p>
+      <p>
+        <label for="color" id="color">
+          color
+          <input type="color" />
+        </label>
+      </p>
+      <p>
+        <input type="number" />
+      </p>
+      <button type="button">Submit</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search Google</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+    <input type="checkbox" name="agree_tos" id="agree">
+      <label for="agree">I agree to everything</label>
+      <button>Submit</button>
+    </forms>
+
+    <h2>Radio test</h2>
+    <form action="/birds">
+    <label for="xs">XS</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="s">S</label>
+    <input type="radio" name="size" id="s" value="s">
+    <label for="m">M</label>
+    <input type="radio" name="size" id="m" value="m">
+  </form>
+<label for="">Plesase select a meal type</label>
+  <select name="" id="">
+    <option value="fish">Fish</option>
+    <option value="steak">Steak</option>
+    <option value="chicken" selected>Chicken</option>
+  </select>
+<!-- 
+  //check for id named signup and apply css
+  #signup {  }
+  //checks for classes with the name tag and apply css
+  .tag {}
+-->
+  <p>
+    <label for="cheese">Amount of cheese</label>
+    <input type="range" id="cheese" min="1" max="10" step="2" name="chhes_lvl">
+  </p>
+  <button>Submit</button>
+  </body>
+</html>

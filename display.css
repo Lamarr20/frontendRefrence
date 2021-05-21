@@ -1,0 +1,26 @@
+h1 {
+  /* inline pushes block to be on one line*/
+  background-color: papayawhip;
+  border: 1px solid black;
+  width: 300px;
+  padding: 20px;
+  margin: 100px;
+  display: none;
+}
+
+span {
+  background-color: palevioletred;
+  border: 1px solid black;
+  width: 500px;
+  padding: 100px;
+  margin: 50px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: olivedrab;
+  border: 5px solid black;
+  display: inline-block;
+  margin: 50px;
+}

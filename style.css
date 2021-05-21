@@ -1,0 +1,52 @@
+* {
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-decoration: plum underline wavy;
+  letter-spacing: 15px;
+  font-size: 80px;
+  font-family: Arial, fantasy, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+h1,
+h2 {
+  color: teal;
+}
+
+#signup {
+}
+
+.tag {
+}
+
+h1 a {
+}
+
+label + input {
+}
+
+footer > a {
+}
+
+input[type="password"] {
+}
+
+button:hover {
+  background-color: teal;
+  color: thistle;
+}
+.post:nth-of-type(3) {
+}
+
+h2::first-letter {
+}
